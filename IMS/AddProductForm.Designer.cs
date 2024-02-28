@@ -59,7 +59,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(581, 56);
             this.panel1.TabIndex = 16;
-    
             // 
             // pictureBox1
             // 
@@ -83,7 +82,6 @@
             this.label1.Size = new System.Drawing.Size(105, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Add Product";
-       
             // 
             // button3
             // 
@@ -96,7 +94,6 @@
             this.button3.TabIndex = 29;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = false;
-
             // 
             // button2
             // 
@@ -109,7 +106,6 @@
             this.button2.TabIndex = 28;
             this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = false;
-
             // 
             // button1
             // 
@@ -122,7 +118,7 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
-      
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -132,7 +128,6 @@
             this.label2.Size = new System.Drawing.Size(53, 15);
             this.label2.TabIndex = 25;
             this.label2.Text = "Category";
-           
             // 
             // textBoxdescription
             // 
@@ -140,7 +135,6 @@
             this.textBoxdescription.Name = "textBoxdescription";
             this.textBoxdescription.Size = new System.Drawing.Size(378, 23);
             this.textBoxdescription.TabIndex = 24;
-         
             // 
             // label6
             // 
@@ -150,7 +144,6 @@
             this.label6.Size = new System.Drawing.Size(67, 15);
             this.label6.TabIndex = 23;
             this.label6.Text = "Description";
-
             // 
             // textBoxPrice
             // 
@@ -158,7 +151,6 @@
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(378, 23);
             this.textBoxPrice.TabIndex = 22;
-        
             // 
             // label5
             // 
@@ -168,7 +160,6 @@
             this.label5.Size = new System.Drawing.Size(49, 15);
             this.label5.TabIndex = 21;
             this.label5.Text = "quantity";
-           
             // 
             // textBoxQuantity
             // 
@@ -176,7 +167,6 @@
             this.textBoxQuantity.Name = "textBoxQuantity";
             this.textBoxQuantity.Size = new System.Drawing.Size(378, 23);
             this.textBoxQuantity.TabIndex = 20;
-         
             // 
             // label4
             // 
@@ -186,7 +176,6 @@
             this.label4.Size = new System.Drawing.Size(34, 15);
             this.label4.TabIndex = 19;
             this.label4.Text = "price";
-      
             // 
             // textBoxProductname
             // 
@@ -194,7 +183,6 @@
             this.textBoxProductname.Name = "textBoxProductname";
             this.textBoxProductname.Size = new System.Drawing.Size(378, 23);
             this.textBoxProductname.TabIndex = 18;
-   
             // 
             // label3
             // 
@@ -204,16 +192,15 @@
             this.label3.Size = new System.Drawing.Size(75, 15);
             this.label3.TabIndex = 17;
             this.label3.Text = "product name";
-          
             // 
             // category
             // 
+            this.category.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.category.FormattingEnabled = true;
             this.category.Location = new System.Drawing.Point(155, 283);
             this.category.Name = "category";
             this.category.Size = new System.Drawing.Size(378, 23);
             this.category.TabIndex = 30;
-
             // 
             // AddProductForm
             // 
