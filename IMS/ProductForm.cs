@@ -40,7 +40,7 @@ namespace IMS
             int i = 0;
             dataGridViewP.Rows.Clear();
 
-            cmd = new SqlCommand("SELECT * FROM Products", sqlConnection);
+            cmd = new SqlCommand("SELECT * FROM Products WHERE CONCAT(pId,pname,pprice,pqty,pdescription,pcategory) LIKE '%"+textBoxSearch.Text+"%'", sqlConnection);
 
             sqlConnection.Open();
             dr = cmd.ExecuteReader();
@@ -56,5 +56,48 @@ namespace IMS
 
         }
 
+        private void dataGridViewP_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //get edit colum
+            string colName = dataGridViewP.Columns[e.ColumnIndex].Name;
+            Console.WriteLine(colName);
+            //check the type of column
+            if (colName == "Edit")
+            {
+                //load userform
+                AddProductForm productform = new AddProductForm();
+                //set form input values from row
+                productform.label7.Text = dataGridViewP.Rows[e.RowIndex].Cells[1].Value.ToString();
+                productform.textBoxProductname.Text = dataGridViewP.Rows[e.RowIndex].Cells[2].Value.ToString();
+                productform.textBoxPrice.Text = dataGridViewP.Rows[e.RowIndex].Cells[4].Value.ToString();
+                productform.textBoxQuantity.Text = dataGridViewP.Rows[e.RowIndex].Cells[3].Value.ToString();
+                productform.textBoxdescription.Text = dataGridViewP.Rows[e.RowIndex].Cells[6].Value.ToString();
+                productform.category.Text = dataGridViewP.Rows[e.RowIndex].Cells[5].Value.ToString();
+                productform.button1.Enabled = false;
+                productform.button2.Enabled = true;
+                productform.button3.Enabled = true;
+              
+
+                productform.ShowDialog();
+
+            }
+            else if (colName == "Delete")
+            {
+                if (MessageBox.Show("Are you sure you want to delete product", "Delete Product", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    sqlConnection.Open();
+                    cmd = new SqlCommand("DELETE FROM Products WHERE pid LIKE '" + dataGridViewP.Rows[e.RowIndex].Cells[1].Value.ToString() + "'", sqlConnection);
+                    cmd.ExecuteNonQuery();
+                    sqlConnection.Close();
+                    LoadProducts();
+                    MessageBox.Show("Product has been deleted successfully", "DELETED", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+        }
+
+        private void textBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            LoadProducts();
+        }
     }
 }

@@ -49,8 +49,8 @@ namespace IMS
                 {
                     cmd = new SqlCommand("INSERT INTO Products(pname,pprice,pqty,pdescription,pcategory)VALUES(@name,@price,@qty,@description,@category)", sqlConnection);
                     cmd.Parameters.AddWithValue("@name", textBoxProductname.Text);
-                    cmd.Parameters.AddWithValue("@price",Convert.ToInt16(textBoxPrice.Text));
-                    cmd.Parameters.AddWithValue("@qty", Convert.ToInt16(textBoxQuantity.Text));
+                    cmd.Parameters.AddWithValue("@price",Convert.ToInt64(textBoxPrice.Text));
+                    cmd.Parameters.AddWithValue("@qty", Convert.ToInt64(textBoxQuantity.Text));
                     cmd.Parameters.AddWithValue("@description", textBoxdescription.Text);
                     cmd.Parameters.AddWithValue("@category", category.Text);
 
@@ -59,6 +59,40 @@ namespace IMS
                     sqlConnection.Close();
 
                     MessageBox.Show("Product has been saved successfully");
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (MessageBox.Show("Are you sure you want to Update this Product", "Updating Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cmd = new SqlCommand("UPDATE Products set pname=@pname,pprice=@pprice,pqty=@pqty,pdescription=@pdescription,pcategory=@category WHERE pid LIKE '" + label7.Text + "'", sqlConnection);
+                    cmd.Parameters.AddWithValue("@pname", textBoxProductname.Text);
+                    cmd.Parameters.AddWithValue("@pprice",Convert.ToInt64(textBoxPrice.Text) );
+                    cmd.Parameters.AddWithValue("@pqty",Convert.ToInt64(textBoxQuantity.Text) );
+                    cmd.Parameters.AddWithValue("@pdescription", textBoxdescription.Text);
+                    cmd.Parameters.AddWithValue("@category", category.Text);
+
+                    sqlConnection.Open();
+                    cmd.ExecuteNonQuery();
+                    sqlConnection.Close();
+
+                    MessageBox.Show("Product has been saved successfully");
+                    this.Dispose();
 
                 }
 

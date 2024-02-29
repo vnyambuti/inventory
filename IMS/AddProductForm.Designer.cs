@@ -45,6 +45,7 @@
             this.textBoxProductname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.category = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -94,6 +95,7 @@
             this.button3.TabIndex = 29;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -163,7 +165,7 @@
             // 
             // textBoxQuantity
             // 
-            this.textBoxQuantity.Location = new System.Drawing.Point(155, 188);
+            this.textBoxQuantity.Location = new System.Drawing.Point(155, 194);
             this.textBoxQuantity.Name = "textBoxQuantity";
             this.textBoxQuantity.Size = new System.Drawing.Size(378, 23);
             this.textBoxQuantity.TabIndex = 20;
@@ -202,11 +204,25 @@
             this.category.Size = new System.Drawing.Size(378, 23);
             this.category.TabIndex = 30;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(62, 332);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 17);
+            this.label7.TabIndex = 31;
+            this.label7.Text = "product id";
+            this.label7.Visible = false;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // AddProductForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(581, 372);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.category);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
@@ -251,6 +267,7 @@
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox textBoxProductname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox category;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.ComboBox category;
     }
 }
