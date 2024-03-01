@@ -332,3 +332,4 @@ C:\Users\admin\PROJECTS\IMS\IMS\bin\Debug\testIMS.mdf
 C:\Users\admin\PROJECTS\IMS\IMS\bin\Debug\testIMS_log.ldf
 C:\Users\admin\PROJECTS\IMS\IMS\obj\Debug\IMS.AddProductForm.resources
 C:\Users\admin\PROJECTS\IMS\IMS\obj\Debug\IMS.ProductForm.resources
+C:\Users\admin\PROJECTS\IMS\IMS\obj\Debug\IMS.Orders.resources

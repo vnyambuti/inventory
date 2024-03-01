@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\PROJECTS\\IMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|c:\\users\\admin\\projects\\ims\\ims\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|c:\\users\\admin\\projects\\ims\\ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|c:\\users\\admin\\projects\\ims\\ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +55,12 @@
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\categoriesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|c:\\users\\admin\\projects\\ims\\ims\\categoriesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\categoriesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\categoriesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|c:\\users\\admin\\projects\\ims\\ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\addproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\addproductform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|solutionrelative:ims\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45ACA15D-6567-4E73-BEF0-65B7E52EFD0E}|IMS\\IMS.csproj|C:\\Users\\admin\\PROJECTS\\IMS\\ims\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,49 +81,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserForm.cs",
-              "RelativeDocumentMoniker": "IMS\\UserForm.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserForm.cs [Design]",
-              "RelativeToolTip": "IMS\\UserForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Orders.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Orders.cs",
+              "RelativeDocumentMoniker": "IMS\\Orders.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Orders.cs [Design]",
+              "RelativeToolTip": "IMS\\Orders.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:30:22.802Z",
+              "WhenOpened": "2024-03-01T07:45:08.431Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\ProductForm.cs",
               "RelativeDocumentMoniker": "IMS\\ProductForm.cs",
               "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\ProductForm.cs",
               "RelativeToolTip": "IMS\\ProductForm.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCYAAAAJAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAiwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T07:37:49.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserManagement.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs",
-              "RelativeDocumentMoniker": "IMS\\UserManagement.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs",
-              "RelativeToolTip": "IMS\\UserManagement.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAFEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T09:07:58.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\ProductForm.cs",
               "RelativeDocumentMoniker": "IMS\\ProductForm.cs",
@@ -131,7 +122,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "UserManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs",
+              "RelativeDocumentMoniker": "IMS\\UserManagement.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs [Design]",
+              "RelativeToolTip": "IMS\\UserManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:30:25.262Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserForm.cs",
+              "RelativeDocumentMoniker": "IMS\\UserForm.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserForm.cs [Design]",
+              "RelativeToolTip": "IMS\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:30:22.802Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categories.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Categories.cs",
+              "RelativeDocumentMoniker": "IMS\\Categories.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Categories.cs [Design]",
+              "RelativeToolTip": "IMS\\Categories.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:23:23.641Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
+              "RelativeDocumentMoniker": "IMS\\MainForm.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
+              "RelativeToolTip": "IMS\\MainForm.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwEgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:36:56.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
+              "RelativeDocumentMoniker": "IMS\\MainForm.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs [Design]",
+              "RelativeToolTip": "IMS\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:36:51.382Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.cs",
+              "RelativeDocumentMoniker": "IMS\\AddProductForm.cs",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.cs [Design]",
+              "RelativeToolTip": "IMS\\AddProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:29:37.12Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AddProductForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.cs",
               "RelativeDocumentMoniker": "IMS\\AddProductForm.cs",
@@ -144,31 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.cs",
-              "RelativeDocumentMoniker": "IMS\\AddProductForm.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.cs [Design]",
-              "RelativeToolTip": "IMS\\AddProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:29:37.12Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserManagement.cs [Design]",
+              "DocumentIndex": 10,
+              "Title": "UserManagement.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs",
               "RelativeDocumentMoniker": "IMS\\UserManagement.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs [Design]",
-              "RelativeToolTip": "IMS\\UserManagement.cs [Design]",
+              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserManagement.cs",
+              "RelativeToolTip": "IMS\\UserManagement.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:30:25.262Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-29T09:07:58.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "UserForm.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\UserForm.cs",
               "RelativeDocumentMoniker": "IMS\\UserForm.cs",
@@ -181,19 +234,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CategoriesManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\CategoriesManagement.cs",
               "RelativeDocumentMoniker": "IMS\\CategoriesManagement.cs",
               "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\CategoriesManagement.cs [Design]",
               "RelativeToolTip": "IMS\\CategoriesManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T09:36:14.819Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-26T09:36:14.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "CategoriesManagement.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\CategoriesManagement.cs",
               "RelativeDocumentMoniker": "IMS\\CategoriesManagement.cs",
@@ -201,37 +253,11 @@
               "RelativeToolTip": "IMS\\CategoriesManagement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T09:07:48.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-29T09:07:48.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
-              "RelativeDocumentMoniker": "IMS\\MainForm.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs [Design]",
-              "RelativeToolTip": "IMS\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:36:51.382Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
-              "RelativeDocumentMoniker": "IMS\\MainForm.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\MainForm.cs",
-              "RelativeToolTip": "IMS\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:36:56.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AddProductForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddProductForm.Designer.cs",
               "RelativeDocumentMoniker": "IMS\\AddProductForm.Designer.cs",
@@ -244,18 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Categories.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Categories.cs",
-              "RelativeDocumentMoniker": "IMS\\Categories.cs",
-              "ToolTip": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Categories.cs [Design]",
-              "RelativeToolTip": "IMS\\Categories.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T07:23:23.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AddCustomer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\AddCustomer.cs",
               "RelativeDocumentMoniker": "IMS\\AddCustomer.cs",
@@ -267,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "dbo.Categories [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_DOCUMENTS_INVENTORY.MDF/True/SqlTable/dbo.Categories.sql",
               "ToolTip": "dbo.Categories [Data]",
@@ -276,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\Users\\admin\\PROJECTS\\IMS\\IMS\\Categories.cs",
               "RelativeDocumentMoniker": "IMS\\Categories.cs",
@@ -284,7 +299,8 @@
               "RelativeToolTip": "IMS\\Categories.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAUwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T09:38:53.352Z"
+              "WhenOpened": "2024-02-26T09:38:53.352Z",
+              "EditorCaption": ""
             }
           ]
         }
