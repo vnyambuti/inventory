@@ -27,7 +27,7 @@ namespace IMS
             int i = 0;
             dataGridViewCustomers.Rows.Clear();
 
-            cmd = new SqlCommand("SELECT * FROM Customers", sqlConnection);
+            cmd = new SqlCommand("SELECT * FROM Castomers", sqlConnection);
 
             sqlConnection.Open();
             dr = cmd.ExecuteReader();
@@ -78,7 +78,7 @@ namespace IMS
             }
             else if (colName == "Delete")
             {
-                if (MessageBox.Show("Are you sure you want to delete customer", "Delete Customer", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Are you sure you want to delete castomer", "Delete Customer", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     sqlConnection.Open();
                     cmd = new SqlCommand("DELETE FROM Customers WHERE phone LIKE '" + dataGridViewCustomers.Rows[e.RowIndex].Cells[2].Value.ToString() + "'", sqlConnection);

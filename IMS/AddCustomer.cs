@@ -34,7 +34,7 @@ namespace IMS
             {
                 if (MessageBox.Show("Are you sure you want to save this customer", "Saving Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cmd = new SqlCommand("INSERT INTO Customers(name,phone)VALUES(@fullname,@phone)", sqlConnection);
+                    cmd = new SqlCommand("INSERT INTO Castomers(fullname,phone)VALUES(@fullname,@phone)", sqlConnection);
                     cmd.Parameters.AddWithValue("@fullname", textBoxName.Text);
                     cmd.Parameters.AddWithValue("@phone", textBoxPhone.Text);
                   
@@ -64,9 +64,9 @@ namespace IMS
         {
             try
             {
-                if (MessageBox.Show("Are you sure you want to update this customer","Customer Update",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+                if (MessageBox.Show("Are you sure you want to update this castomer","Customer Update",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
                 {
-                    cmd = new SqlCommand("UPDATE Customers set name=@name,phone=@phone WHERE phone LIKE '"+textBoxPhone.Text+"'", sqlConnection);
+                    cmd = new SqlCommand("UPDATE Customers set fullname=@name,phone=@phone WHERE phone LIKE '"+textBoxPhone.Text+"'", sqlConnection);
                     cmd.Parameters.AddWithValue("@name",textBoxName.Text);
                     cmd.Parameters.AddWithValue("@phone", textBoxPhone.Text);
 
